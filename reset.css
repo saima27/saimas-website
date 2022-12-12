@@ -1,0 +1,61 @@
+/* h1{color: aqua; background-color: antiquewhite; text-align: justify; text-decoration: solid; font-family:'Times New Roman', Times, serif ;}
+#reset-pass {text-align: justify; text-decoration: solid; font-family: 'Times New Roman', Times, serif; color: black;}
+a {color: rgb(22, 17, 17); background-color:rgb(80, 55, 17); }
+pre {color:black; text-decoration: solid;}
+a {color:brown: 5cm;text-decoration: wavy;} */
+/*  universal selector*/
+*{
+    padding: 0%;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+    outline:0px;}
+    /* element selctor */
+    body 
+    {background-color: rgb(109, 45, 55);}
+    /* id selctor */
+    #love {background-color: rgb(46, 11, 11);
+    width: 50%;
+    margin: 10% auto;
+    padding: 10px;
+    text-align: center;
+    }
+    /* class selector */
+    .login-here {text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    margin-bottom: 10px;}
+    /* grouping selector */
+    input, label {display:block;
+    width: 80%;
+    margin: auto;
+    }
+    /* individual */
+    label {font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    margin: 10px auto;}
+    input {padding: 10px;
+    background-color:transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 17px;}
+    /* attribute selector by psuedo elemant */
+    input [type="submit"] {width: 50%;
+    margin: 20px auto;
+    text-transform: capitalize;
+    transition: ease-in-out.5s;
+    }
+    /* psudo class selector */
+    input[type="submit"]:hover {background-color: rgb(238, 109, 131); color:rgb(27, 5, 14);}
+    p {font-size: 20px;
+    font-weight: 700;
+    text-transform: lowercase;}
+    p a {text-transform: uppercase;}
+    pre {padding: 10px;
+        background-color:transparent;
+        color: black;
+        font-size: 17px;
+        text-align: center;}
+    input,label { margin-bottom: 10px;}
